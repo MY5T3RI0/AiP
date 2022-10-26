@@ -1,0 +1,4 @@
+﻿  dz1.cpp
+C:\Users\mrban\source\repos\LR4\dz1\dz1.cpp(6,21): warning C4101: Y: неиспользованная локальная переменная
+C:\Users\mrban\source\repos\LR4\dz1\dz1.cpp(6,18): warning C4101: X: неиспользованная локальная переменная
+  dz1.vcxproj -> C:\Users\mrban\source\repos\LR4\Debug\dz1.exe
