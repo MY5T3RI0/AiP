@@ -10,7 +10,7 @@ int main()
         cout << "Input num\n";
         cin >> num;
 
-        for (; num % 16 != 0; num <<= 1);
+        for (; (num & 0xf) != 0; num <<= 1);
 
         cout << "Answer = " << num << endl << endl;
     }
