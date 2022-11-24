@@ -1,0 +1,6 @@
+﻿  NUM3.cpp
+C:\Users\mrban\OneDrive\Рабочий стол\AiP\Labs\LR6\NUM3\NUM3.cpp(8,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\mrban\OneDrive\Рабочий стол\AiP\Labs\LR6\NUM3\NUM3.cpp(9,16): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\mrban\OneDrive\Рабочий стол\AiP\Labs\LR6\NUM3\NUM3.cpp(10,16): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\mrban\OneDrive\Рабочий стол\AiP\Labs\LR6\NUM3\NUM3.cpp(17,23): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  NUM3.vcxproj -> C:\Users\mrban\OneDrive\Рабочий стол\AiP\Labs\LR6\Debug\NUM3.exe

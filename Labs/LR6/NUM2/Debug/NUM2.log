@@ -1,0 +1,5 @@
+﻿  NUM2.cpp
+C:\Users\mrban\OneDrive\Рабочий стол\AiP\Labs\LR6\NUM2\NUM2.cpp(10,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\mrban\OneDrive\Рабочий стол\AiP\Labs\LR6\NUM2\NUM2.cpp(15,12): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\mrban\OneDrive\Рабочий стол\AiP\Labs\LR6\NUM2\NUM2.cpp(18,53): warning C4305: инициализация: усечение из "double" в "float"
+  NUM2.vcxproj -> C:\Users\mrban\OneDrive\Рабочий стол\AiP\Labs\LR6\Debug\NUM2.exe

@@ -1,0 +1,3 @@
+﻿  dz2.cpp
+C:\Users\mrban\OneDrive\Рабочий стол\AiP\Labs\LR6\dz2\dz2.cpp(26,25): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+  dz2.vcxproj -> C:\Users\mrban\OneDrive\Рабочий стол\AiP\Labs\LR6\Debug\dz2.exe
