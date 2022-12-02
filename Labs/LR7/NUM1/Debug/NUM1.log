@@ -1,0 +1,3 @@
+﻿  NUM1.cpp
+C:\Users\Студент\source\repos\LR7\NUM1\NUM1.cpp(83): warning C4715: getZ: значение возвращается не при всех путях выполнения
+  NUM1.vcxproj -> C:\Users\Студент\source\repos\LR7\Debug\NUM1.exe

@@ -1,0 +1,23 @@
+﻿  dz2.cpp
+C:\Users\mrban\OneDrive\Рабочий стол\AiP\Labs\LR7\dz2\dz2.cpp(18,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\utility(278,39): warning C4244: =: преобразование "_Ty" в "_Ty1", возможна потеря данных
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty1=float
+          ]
+C:\Users\mrban\OneDrive\Рабочий стол\AiP\Labs\LR7\dz2\dz2.cpp(30): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<float,float> &std::pair<float,float>::operator =<int,int,0>(std::pair<int,int> &&) noexcept"
+C:\Users\mrban\OneDrive\Рабочий стол\AiP\Labs\LR7\dz2\dz2.cpp(30): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<float,float> &std::pair<float,float>::operator =<int,int,0>(std::pair<int,int> &&) noexcept"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include\utility(279,39): warning C4244: =: преобразование "_Ty" в "_Ty2", возможна потеря данных
+          with
+          [
+              _Ty=int
+          ]
+          and
+          [
+              _Ty2=float
+          ]
+  dz2.vcxproj -> C:\Users\mrban\OneDrive\Рабочий стол\AiP\Labs\LR7\Debug\dz2.exe

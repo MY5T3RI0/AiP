@@ -1,0 +1,5 @@
+﻿  NUM2.cpp
+C:\Users\Студент\source\repos\LR7\NUM2\NUM2.cpp(11,13): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\Студент\source\repos\LR7\NUM2\NUM2.cpp(12,13): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+C:\Users\Студент\source\repos\LR7\NUM2\NUM2.cpp(13,13): warning C4244: =: преобразование "int" в "float", возможна потеря данных
+  NUM2.vcxproj -> C:\Users\Студент\source\repos\LR7\Debug\NUM2.exe
