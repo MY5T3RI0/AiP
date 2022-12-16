@@ -1,0 +1,10 @@
+﻿  num2.cpp
+C:\Users\mrban\source\repos\LR9\num2\num2.cpp(13,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\mrban\source\repos\LR9\num2\num2.cpp(23,30): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\mrban\source\repos\LR9\num2\num2.cpp(32,30): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\mrban\source\repos\LR9\num2\num2.cpp(45,26): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\mrban\source\repos\LR9\num2\num2.cpp(54,26): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\mrban\source\repos\LR9\num2\num2.cpp(70,26): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\mrban\source\repos\LR9\num2\num2.cpp(77,45): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+C:\Users\mrban\source\repos\LR9\num2\num2.cpp(86,49): warning C4244: +=: преобразование "double" в "float", возможна потеря данных
+  num2.vcxproj -> C:\Users\mrban\source\repos\LR9\Debug\num2.exe

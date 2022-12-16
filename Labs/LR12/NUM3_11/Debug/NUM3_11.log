@@ -1,0 +1,4 @@
+﻿  NUM3_11.cpp
+C:\Users\mrban\source\repos\LR12\NUM3_11\NUM3_11.cpp(27,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\mrban\source\repos\LR12\NUM3_11\NUM3_11.cpp(89,26): warning C4018: <: несоответствие типов со знаком и без знака
+  NUM3_11.vcxproj -> C:\Users\mrban\source\repos\LR12\Debug\NUM3_11.exe

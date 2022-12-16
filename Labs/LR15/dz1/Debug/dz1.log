@@ -1,0 +1,11 @@
+﻿  dz1.cpp
+C:\Users\mrban\source\repos\LR15\dz1\dz1.cpp(23,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\mrban\source\repos\LR15\dz1\dz1.cpp(85,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\mrban\source\repos\LR15\dz1\dz1.cpp(87,24): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\mrban\source\repos\LR15\dz1\dz1.cpp(101,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\mrban\source\repos\LR15\dz1\dz1.cpp(103,24): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\mrban\source\repos\LR15\dz1\dz1.cpp(112,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\mrban\source\repos\LR15\dz1\dz1.cpp(114,24): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\mrban\source\repos\LR15\dz1\dz1.cpp(126,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\mrban\source\repos\LR15\dz1\dz1.cpp(128,24): warning C4018: <: несоответствие типов со знаком и без знака
+  dz1.vcxproj -> C:\Users\mrban\source\repos\LR15\Debug\dz1.exe

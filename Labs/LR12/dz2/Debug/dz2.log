@@ -1,0 +1,9 @@
+﻿  dz2.cpp
+C:\Users\mrban\source\repos\LR12\dz2\dz2.cpp(11,26): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\mrban\source\repos\LR12\dz2\dz2.cpp(20,26): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\mrban\source\repos\LR12\dz2\dz2.cpp(31,30): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\mrban\source\repos\LR12\dz2\dz2.cpp(40,26): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\mrban\source\repos\LR12\dz2\dz2.cpp(42,34): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\mrban\source\repos\LR12\dz2\dz2.cpp(66,26): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\mrban\source\repos\LR12\dz2\dz2.cpp(68,34): warning C4018: <: несоответствие типов со знаком и без знака
+  dz2.vcxproj -> C:\Users\mrban\source\repos\LR12\Debug\dz2.exe

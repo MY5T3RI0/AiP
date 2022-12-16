@@ -1,0 +1,34 @@
+﻿  NUM2_3.cpp
+C:\Users\mrban\source\repos\LR15\NUM2_3\NUM2_3.cpp(18,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\mrban\source\repos\LR15\NUM2_3\NUM2_3.cpp(35,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\mrban\source\repos\LR15\NUM2_3\NUM2_3.cpp(23): message : выполняется компиляция ссылки на экземпляр шаблон функции "void getRandValues<float>(T *,int)"
+          with
+          [
+              T=float
+          ]
+C:\Users\mrban\source\repos\LR15\NUM2_3\NUM2_3.cpp(105,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\mrban\source\repos\LR15\NUM2_3\NUM2_3.cpp(24): message : выполняется компиляция ссылки на экземпляр шаблон функции "void print<float>(T *,int)"
+          with
+          [
+              T=float
+          ]
+C:\Users\mrban\source\repos\LR15\NUM2_3\NUM2_3.cpp(46,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\mrban\source\repos\LR15\NUM2_3\NUM2_3.cpp(25): message : выполняется компиляция ссылки на экземпляр шаблон функции "void printMultiply<float>(T *,int)"
+          with
+          [
+              T=float
+          ]
+C:\Users\mrban\source\repos\LR15\NUM2_3\NUM2_3.cpp(71,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\mrban\source\repos\LR15\NUM2_3\NUM2_3.cpp(26): message : выполняется компиляция ссылки на экземпляр шаблон функции "void printSum<float>(T *,int)"
+          with
+          [
+              T=float
+          ]
+C:\Users\mrban\source\repos\LR15\NUM2_3\NUM2_3.cpp(79,27): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\mrban\source\repos\LR15\NUM2_3\NUM2_3.cpp(88,23): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\mrban\source\repos\LR15\NUM2_3\NUM2_3.cpp(27): message : выполняется компиляция ссылки на экземпляр шаблон функции "void reorder<float>(T *,int)"
+          with
+          [
+              T=float
+          ]
+  NUM2_3.vcxproj -> C:\Users\mrban\source\repos\LR15\Debug\NUM2_3.exe

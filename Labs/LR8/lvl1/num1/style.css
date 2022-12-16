@@ -1,0 +1,49 @@
+.bold{
+    font-style: italic;
+    font-weight: 800;
+}
+
+.right .bold{
+    font-size:x-large;
+}
+
+.right{
+    text-align: right;
+}
+
+.center{
+    text-align: center;
+}
+
+.crossline{
+    text-decoration: line-through;
+    font-style: italic;
+}
+
+.underline{
+    text-decoration: underline;
+    border-bottom: 1px solid black;
+}
+
+.bigGreen{
+    font-size:x-large;
+    color: green;
+}
+
+.blue{
+    color: blue;
+    font-size: large;
+}
+
+.red{
+    color: red;
+}
+
+.italic{
+    font-style: italic;
+}
+
+.content{
+    margin: 0 auto;
+    width: 580px;
+}

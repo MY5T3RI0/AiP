@@ -1,0 +1,4 @@
+﻿  NUM2_7.cpp
+C:\Users\mrban\source\repos\LR12\NUM2_7\NUM2_7.cpp(26,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\mrban\source\repos\LR12\NUM2_7\NUM2_7.cpp(129,26): warning C4018: <: несоответствие типов со знаком и без знака
+  NUM2_7.vcxproj -> C:\Users\mrban\source\repos\LR12\Debug\NUM2_7.exe

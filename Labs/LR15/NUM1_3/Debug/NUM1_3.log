@@ -1,0 +1,6 @@
+﻿  NUM1_3.cpp
+C:\Users\mrban\source\repos\LR15\NUM1_3\NUM1_3.cpp(8,36): warning C4244: =: преобразование "double" в "float", возможна потеря данных
+C:\Users\mrban\source\repos\LR15\NUM1_3\NUM1_3.cpp(51,12): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+C:\Users\mrban\source\repos\LR15\NUM1_3\NUM1_3.cpp(63,12): warning C4244: return: преобразование "double" в "float", возможна потеря данных
+C:\Users\mrban\source\repos\LR15\NUM1_3\NUM1_3.cpp(68,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  NUM1_3.vcxproj -> C:\Users\mrban\source\repos\LR15\Debug\NUM1_3.exe
