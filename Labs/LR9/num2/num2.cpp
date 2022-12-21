@@ -12,28 +12,35 @@ int main()
 {
     srand(time(0));
     int n;
-    for (size_t i = 0; i < 100000; i++)
+
+    n = rand() % 3 + 4;
+
+    pair<int, int>* coords = new pair<int, int>[n];
+    getCoords(coords, n);
+
+    cout << "points:\n";
+
+    for (size_t i = 0; i < n; i++)
     {
-        //n = rand() % 3 + 4;
-        n = 6;
-
-        pair<int, int>* coords = new pair<int, int>[n];
-        getCoords(coords, n);
-
-        for (size_t i = 0; i < n; i++)
-        {
-            //cout << "(" << coords[i].first << "; " << coords[i].second << ")" << endl;
-        }
-
-        pair<int, int>* vectors = new pair<int, int>[n];
-        getVectors(coords, n, vectors);
-
-        //cout << "------------------\n";
-        for (size_t i = 0; i < n; i++)
-        {
-            //cout << "(" << vectors[i].first << "; " << vectors[i].second << ")" << endl;
-        }
+        cout << "(" << coords[i].first << "; " << coords[i].second << ")" << endl;
     }
+
+    pair<int, int>* vectors = new pair<int, int>[n];
+    getVectors(coords, n, vectors);
+
+    cout << "------------------\n";
+    cout << "vectors:\n";
+
+    for (size_t i = 0; i < n; i++)
+    {
+        cout << "(" << vectors[i].first << "; " << vectors[i].second << ")" << endl;
+    }
+
+    if (isConvex)
+        cout << "\nIs not convex\n";
+    else
+        cout << "\nIs not convex\n";
+
 }
 
 void getCoords(pair<int, int>* coords, int size) {
@@ -64,27 +71,22 @@ bool isConvex(pair<int, int>* vectors, int size) {
 
     for (size_t i = 0; i < size; i++)
     {
+        if (i = size - 1)
+        {
+            double vectorsMultiply = vectors[i].first * vectors[0].first + vectors[i].second * vectors[0].second;
+            double vector1Length = sqrt(pow(vectors[i].first, 2) + pow(vectors[i].second, 2));
+            double vector2Length = sqrt(pow(vectors[0].first, 2) + pow(vectors[0].second, 2));
+            double cosa = vectorsMultiply / vector1Length / vector2Length;
+            anglesSum += (acos(cosa) * 180 / PI);
+            break;
+        }
+
         double vectorsMultiply = vectors[i].first * vectors[i + 1].first + vectors[i].second * vectors[i + 1].second;
         double vector1Length = sqrt(pow(vectors[i].first, 2) + pow(vectors[i].second, 2));
         double vector2Length = sqrt(pow(vectors[i+1].first, 2) + pow(vectors[i+1].second, 2));
         double cosa = vectorsMultiply / vector1Length / vector2Length;
 
         anglesSum += (acos(cosa) * 180 / PI);
-
-        if (i = size-1)
-        {
-            double vectorsMultiply = vectors[i].first * vectors[0].first + vectors[i].second * vectors[0].second;
-            double vector1Length = sqrt(pow(vectors[i].first, 2) + pow(vectors[i].second, 2));
-            double vector2Length = sqrt(pow(vectors[0].first, 2) + pow(vectors[0].second, 2));
-            double cosa = vectorsMultiply / vector1Length / vector2Length;
-
-            anglesSum += (acos(cosa) * 180 / PI);
-        }
-    }
-
-    if (anglesSum > 350 && anglesSum < 750)
-    {
-        cout << anglesSum << " SO CLOSE!\n";
     }
 
     if (anglesSum == 180 * (size - 2))

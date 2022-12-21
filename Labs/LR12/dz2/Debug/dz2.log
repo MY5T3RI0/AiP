@@ -1,9 +1,9 @@
 ﻿  dz2.cpp
-C:\Users\mrban\source\repos\LR12\dz2\dz2.cpp(11,26): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\mrban\source\repos\LR12\dz2\dz2.cpp(20,26): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\mrban\source\repos\LR12\dz2\dz2.cpp(31,30): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\mrban\source\repos\LR12\dz2\dz2.cpp(40,26): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\mrban\source\repos\LR12\dz2\dz2.cpp(42,34): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\mrban\source\repos\LR12\dz2\dz2.cpp(66,26): warning C4018: <: несоответствие типов со знаком и без знака
-C:\Users\mrban\source\repos\LR12\dz2\dz2.cpp(68,34): warning C4018: <: несоответствие типов со знаком и без знака
-  dz2.vcxproj -> C:\Users\mrban\source\repos\LR12\Debug\dz2.exe
+C:\Users\mrban\OneDrive\Рабочий стол\AiP\Labs\LR12\dz2\dz2.cpp(71,26): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\mrban\OneDrive\Рабочий стол\AiP\Labs\LR12\dz2\dz2.cpp(80,26): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\mrban\OneDrive\Рабочий стол\AiP\Labs\LR12\dz2\dz2.cpp(96,30): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\mrban\OneDrive\Рабочий стол\AiP\Labs\LR12\dz2\dz2.cpp(105,26): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\mrban\OneDrive\Рабочий стол\AiP\Labs\LR12\dz2\dz2.cpp(107,34): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\mrban\OneDrive\Рабочий стол\AiP\Labs\LR12\dz2\dz2.cpp(131,26): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\mrban\OneDrive\Рабочий стол\AiP\Labs\LR12\dz2\dz2.cpp(133,34): warning C4018: <: несоответствие типов со знаком и без знака
+  dz2.vcxproj -> C:\Users\mrban\OneDrive\Рабочий стол\AiP\Labs\LR12\Debug\dz2.exe

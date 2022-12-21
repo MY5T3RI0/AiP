@@ -1,5 +1,5 @@
 ﻿  num1.cpp
-C:\Users\mrban\source\repos\LR9\num1\num1.cpp(28,14): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
-C:\Users\mrban\source\repos\LR9\num1\num1.cpp(39,30): warning C4018: <=: несоответствие типов со знаком и без знака
-C:\Users\mrban\source\repos\LR9\num1\num1.cpp(44,34): warning C4244: +=: преобразование "long double" в "float", возможна потеря данных
-  num1.vcxproj -> C:\Users\mrban\source\repos\LR9\Debug\num1.exe
+C:\Users\mrban\OneDrive\Рабочий стол\AiP\Labs\LR9\num1\num1.cpp(28,14): warning C4244: инициализация: преобразование "double" в "float", возможна потеря данных
+C:\Users\mrban\OneDrive\Рабочий стол\AiP\Labs\LR9\num1\num1.cpp(39,30): warning C4018: <=: несоответствие типов со знаком и без знака
+C:\Users\mrban\OneDrive\Рабочий стол\AiP\Labs\LR9\num1\num1.cpp(44,34): warning C4244: +=: преобразование "long double" в "float", возможна потеря данных
+  num1.vcxproj -> C:\Users\mrban\OneDrive\Рабочий стол\AiP\Labs\LR9\Debug\num1.exe

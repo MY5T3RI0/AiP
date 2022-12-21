@@ -1,0 +1,48 @@
+---------------------------------------
+Rooms:
+---------------------------------------
+1) Surname: Корнилов
+	 Number: 21
+	 Faculty: Экономический
+	 Square: 25 кв.м.
+2) Surname: Самойлов
+	 Number: 14
+	 Faculty: Политехнический
+	 Square: 22 кв.м.
+3) Surname: Русаков
+	 Number: 74
+	 Faculty: Политехнический
+	 Square: 21 кв.м.
+4) Surname: Галкин
+	 Number: 48
+	 Faculty: Педагогический
+	 Square: 30 кв.м.
+5) Surname: Самойлов
+	 Number: 29
+	 Faculty: Экономический
+	 Square: 20 кв.м.
+6) Surname: Самойлов
+	 Number: 85
+	 Faculty: Экономический
+	 Square: 27 кв.м.
+7) Surname: Пестов
+	 Number: 48
+	 Faculty: Медицинский
+	 Square: 27 кв.м.
+8) Surname: Пестов
+	 Number: 92
+	 Faculty: Экономический
+	 Square: 22 кв.м.
+9) Surname: Самойлов
+	 Number: 78
+	 Faculty: Исторический
+	 Square: 37 кв.м.
+10) Surname: Филатов
+	 Number: 83
+	 Faculty: Педагогический
+	 Square: 30 кв.м.
+---------------------------------------
+Smallest room:
+---------------------------------------
+Surname: Самойлов
+Square: 20 кв.м.

@@ -1,7 +1,10 @@
 ﻿#include <iostream>
 #include <time.h>
 #include <list>
+#include <fstream>
 using namespace std;
+
+ofstream fout;
 
 struct hostel {
     string Name;
@@ -20,6 +23,7 @@ void printHostels(hostel* hostels, int size);
 
 int main()
 {
+    fout.open("result.txt");
     setlocale(LC_ALL, "Russian");
     srand(time(0));
     hostel* hostels = new hostel[10];
@@ -29,6 +33,9 @@ int main()
     cout << "---------------------------------------\n";
     cout << "Hotels:\n";
     cout << "---------------------------------------\n";
+    fout << "---------------------------------------\n";
+    fout << "Hotels:\n";
+    fout << "---------------------------------------\n";
 
     printHostels(hostels, 10);
 
@@ -46,6 +53,9 @@ int main()
     cout << "---------------------------------------\n";
     cout << "Sorted hotels:\n";
     cout << "---------------------------------------\n";
+    fout << "---------------------------------------\n";
+    fout << "Sorted hotels:\n";
+    fout << "---------------------------------------\n";
 
     printHostels(sortedHostels, hostelsList.size());
 }
@@ -124,6 +134,7 @@ void Sort(hostel* hostels, int size) {
 }
 
 void printHostels(hostel* hostels, int size) {
+
     for (size_t i = 0; i < size; i++)
     {
         cout << i + 1 << ") Name: " << hostels[i].Name << endl;
@@ -131,5 +142,11 @@ void printHostels(hostel* hostels, int size) {
         cout << "\t Comfort: " << hostels[i].comfort << endl;
         cout << "\t Capacity: " << hostels[i].capacity << " чел." << endl;
         cout << "\t Price: " << hostels[i].price << " в день" << endl;
+
+        fout << i + 1 << ") Name: " << hostels[i].Name << endl;
+        fout << "\t Number: " << hostels[i].number << endl;
+        fout << "\t Comfort: " << hostels[i].comfort << endl;
+        fout << "\t Capacity: " << hostels[i].capacity << " чел." << endl;
+        fout << "\t Price: " << hostels[i].price << " в день" << endl;
     }
 }

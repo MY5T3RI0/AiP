@@ -1,5 +1,6 @@
 ﻿#include <iostream>
 #include <time.h>
+#include <fstream>
 using namespace std;
 
 struct statement {
@@ -18,7 +19,7 @@ string getRandDate();
 
 void GetWorkers(statement* workers, int count);
 
-int getMaxPay(statement* workers);
+string getMaxPay(statement* workers);
 
 int main()
 {   
@@ -28,15 +29,24 @@ int main()
 
     GetWorkers(workers, 10);
 
+    ofstream fout;
+    fout.open("result.txt");
+
     for (size_t i = 0; i < 10; i++)
     {
         cout << i + 1 << ") FIO: " << workers[i].FIO << endl;
         cout << "\t Job: " << workers[i].job << endl;
         cout << "\t Birthday: " << workers[i].birthday << " " << workers[i].birthdayYear << "г." << endl;
         cout << "\t Pay: " << workers[i].pay << endl;
+
+        fout << i + 1 << ") FIO: " << workers[i].FIO << endl;
+        fout << "\t Job: " << workers[i].job << endl;
+        fout << "\t Birthday: " << workers[i].birthday << " " << workers[i].birthdayYear << "г." << endl;
+        fout << "\t Pay: " << workers[i].pay << endl;
     }
 
     cout << "\nMax pay = " << getMaxPay(workers) << endl;
+    fout << "\nMax pay = " << getMaxPay(workers) << endl;
 
 }
 
@@ -98,15 +108,19 @@ void GetWorkers(statement* workers, int count) {
     }
 }
 
-int getMaxPay(statement* workers) {
+string getMaxPay(statement* workers) {
 
     int maxPay = 0;
+    string name;
 
     for (size_t i = 0; i < 10; i++)
     {
         if (workers[i].pay > maxPay)
+        {
             maxPay = workers[i].pay;
+            name = workers[i].FIO;
+        }
     }
 
-    return maxPay;
+    return name;
 }

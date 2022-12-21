@@ -1,0 +1,76 @@
+---------------------------------------
+Hotels:
+---------------------------------------
+1) Name: Ибис
+	 Number: 18
+	 Comfort: полулюкс
+	 Capacity: 5 чел.
+	 Price: 1368 в день
+2) Name: Берисон Худякова
+	 Number: 90
+	 Comfort: эконом
+	 Capacity: 2 чел.
+	 Price: 2191 в день
+3) Name: Рубин Апарт
+	 Number: 39
+	 Comfort: эконом
+	 Capacity: 2 чел.
+	 Price: 1027 в день
+4) Name: Раймонд Отель
+	 Number: 11
+	 Comfort: полулюкс
+	 Capacity: 5 чел.
+	 Price: 2464 в день
+5) Name: Рубин Апарт
+	 Number: 67
+	 Comfort: эконом
+	 Capacity: 5 чел.
+	 Price: 1773 в день
+6) Name: Хаял
+	 Number: 18
+	 Comfort: эконом
+	 Capacity: 4 чел.
+	 Price: 1536 в день
+7) Name: Раймонд Отель
+	 Number: 1
+	 Comfort: люкс
+	 Capacity: 5 чел.
+	 Price: 1799 в день
+8) Name: Джузеппе
+	 Number: 59
+	 Comfort: полулюкс
+	 Capacity: 1 чел.
+	 Price: 1824 в день
+9) Name: Ибис
+	 Number: 77
+	 Comfort: эконом
+	 Capacity: 4 чел.
+	 Price: 2728 в день
+10) Name: Берисон Худякова
+	 Number: 6
+	 Comfort: полулюкс
+	 Capacity: 2 чел.
+	 Price: 1443 в день
+---------------------------------------
+Sorted hotels:
+---------------------------------------
+1) Name: Рубин Апарт
+	 Number: 39
+	 Comfort: эконом
+	 Capacity: 2 чел.
+	 Price: 1027 в день
+2) Name: Рубин Апарт
+	 Number: 67
+	 Comfort: эконом
+	 Capacity: 5 чел.
+	 Price: 1773 в день
+3) Name: Раймонд Отель
+	 Number: 1
+	 Comfort: люкс
+	 Capacity: 5 чел.
+	 Price: 1799 в день
+4) Name: Раймонд Отель
+	 Number: 11
+	 Comfort: полулюкс
+	 Capacity: 5 чел.
+	 Price: 2464 в день

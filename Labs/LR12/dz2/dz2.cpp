@@ -1,5 +1,8 @@
 ﻿#include <iostream>
+#include <fstream>
 using namespace std;
+
+ofstream fout;
 
 struct domino {
     int left;
@@ -15,6 +18,7 @@ void sortDominoes(domino* dominos, int size);
 
 int main()
 {
+    fout.open("result.txt");
     int size = 28;
     domino* dominos = new domino[size];
 
@@ -23,6 +27,10 @@ int main()
     cout << "---------------------------------------\n";
     cout << "Dominos:\n";
     cout << "---------------------------------------\n";
+
+    fout << "---------------------------------------\n";
+    fout << "Dominos:\n";
+    fout << "---------------------------------------\n";
 
     printDominoes(dominos, size);
 
@@ -39,6 +47,10 @@ int main()
     cout << "Unique dominos:\n";
     cout << "---------------------------------------\n";
 
+    fout << "---------------------------------------\n";
+    fout << "Unique dominos:\n";
+    fout << "---------------------------------------\n";
+
     printDominoes(dominos, size);
 
     sortDominoes(dominos, size);
@@ -46,6 +58,10 @@ int main()
     cout << "---------------------------------------\n";
     cout << "Sorted dominos:\n";
     cout << "---------------------------------------\n";
+
+    fout << "---------------------------------------\n";
+    fout << "Sorted dominos:\n";
+    fout << "---------------------------------------\n";
 
     printDominoes(dominos, size);
 }
@@ -67,6 +83,11 @@ void printDominoes(domino* dominos, int size) {
         cout << "-----\n";
         cout << "|" << dominos[i].left << "|" << dominos[i].right << "|\n";
         cout << "-----\n";
+
+        fout << "#" << i + 1 << endl;
+        fout << "-----\n";
+        fout << "|" << dominos[i].left << "|" << dominos[i].right << "|\n";
+        fout << "-----\n";
     }
 }
 

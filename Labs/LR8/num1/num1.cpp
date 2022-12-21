@@ -48,6 +48,8 @@ int main()
 
 	getNumbers(mass, numbers);
 
+	cout << "mass: ";
+
 	for (size_t i = 0; i < 19; i++)
 	{
 		cout << mass[i] << " ";
@@ -55,15 +57,21 @@ int main()
 
 	cout << endl;
 
+	cout << "null bit count in mass: ";
+
 	for (size_t i = 0; i < 19; i++)
 	{
 		cout << numbers[i] << " ";
 	}
+
+	cout << "\n-----------------------------------------------------";
 
 	sortNumbers(numbers, mass);
 
 	cout << endl;
 
+	cout << "sorted null bit count in mass: ";
+
 	for (size_t i = 0; i < 19; i++)
 	{
 		cout << numbers[i] << " ";
@@ -71,8 +79,12 @@ int main()
 
 	cout << endl;
 
+	cout << "sorted mass: ";
+
 	for (size_t i = 0; i < 19; i++)
 	{
 		cout << mass[i] << " ";
 	}
+
+	cout << endl;
 }

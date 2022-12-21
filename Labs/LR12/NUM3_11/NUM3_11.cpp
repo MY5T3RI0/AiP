@@ -1,7 +1,10 @@
 ﻿#include <iostream>
 #include <time.h>
 #include <list>
+#include <fstream>
 using namespace std;
+
+ofstream fout;
 
 struct room {
     string surname;
@@ -23,6 +26,7 @@ void getSmallestRoom(room* rooms, smallestRoom* room);
 
 int main()
 {
+    fout.open("result.txt");
     setlocale(LC_ALL, "Russian");
     srand(time(0));
     room* rooms = new room[10];
@@ -32,6 +36,9 @@ int main()
     cout << "---------------------------------------\n";
     cout << "Rooms:\n";
     cout << "---------------------------------------\n";
+    fout << "---------------------------------------\n";
+    fout << "Rooms:\n";
+    fout << "---------------------------------------\n";
 
     printRooms(rooms, 10);
 
@@ -44,6 +51,13 @@ int main()
 
     cout << "Surname: " << smallRoom.surname << endl;
     cout << "Square: " << smallRoom.square << " кв.м." << endl;
+
+    fout << "---------------------------------------\n";
+    fout << "Smallest room:\n";
+    fout << "---------------------------------------\n";
+
+    fout << "Surname: " << smallRoom.surname << endl;
+    fout << "Square: " << smallRoom.square << " кв.м." << endl;
 }
 
 string getRandSurname() {
@@ -92,6 +106,11 @@ void printRooms(room* rooms, int size) {
         cout << "\t Number: " << rooms[i].number << endl;
         cout << "\t Faculty: " << rooms[i].faculty << endl;
         cout << "\t Square: " << rooms[i].square << " кв.м." << endl;
+
+        fout << i + 1 << ") Surname: " << rooms[i].surname << endl;
+        fout << "\t Number: " << rooms[i].number << endl;
+        fout << "\t Faculty: " << rooms[i].faculty << endl;
+        fout << "\t Square: " << rooms[i].square << " кв.м." << endl;
     }
 }
 
